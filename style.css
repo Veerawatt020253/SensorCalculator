@@ -1,0 +1,25 @@
+@font-face {
+    font-family: ibm;
+    src: url(./font/IBMPlexSansThai-Medium.ttf);
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+    background-color: black;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #f1f1f1;
+    border-radius: 5px;
+}
+
+body, html {
+    font-family: ibm;
+    background-color: #e5e5e5;
+    background-image: url(./bg.jpg);
+}
+
+.box {
+    background-color: white;
+    border-radius: 15px;
+}
